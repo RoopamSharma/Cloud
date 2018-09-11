@@ -1,0 +1,14 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+<H1>Search Picture by Name<H1>
+<form action="{{ url_for('nsearch') }}" method ="POST">
+<h6><label>Enter the name</label><br/>
+<input type="text" name="query"/> <br/>
+<br/></h6>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+</html>
