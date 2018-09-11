@@ -1,0 +1,14 @@
+<html>
+<body>
+<H1> Select no of clusters<H1>
+
+<form action="{{ url_for('clustering1') }}" method ="POST" >
+<h6><label>Enter the no of clusters</label><br/>
+<input type="text" name="clusts"/><br/><br/>
+<select name="par1"><option value="5">lat</option><option value="0">Deck level</option><option value="9">Fare</option></select>
+<select name="par2"><option value="5">lat</option><option value="0">Deck level</option><option value="9">Fare</option></select>
+<br/></h6>
+<input type="submit" value="Submit"/>
+</form>
+</body>
+</html>

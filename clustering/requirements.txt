@@ -1,0 +1,10 @@
+Flask==0.12.1
+pandas==0.23.0
+scikit-learn
+matplotlib
+sklearn
+scipy
+numpy
+xlrd
+
+

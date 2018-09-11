@@ -1,0 +1,6 @@
+---
+applications:
+ - name: assignment4
+   random-route: true
+   memory: 256M
+   router.backends.enable_tls: true

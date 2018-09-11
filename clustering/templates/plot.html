@@ -1,0 +1,43 @@
+<html>
+
+<body>
+<center>
+<h2>Earthquake Data</h2>
+<br/><b>Centroids</b><br/>
+
+<table border='1'>
+
+
+   {% for d in data[1] %}
+    <tr>
+      <td>{{d[0]}}</td>
+	  <td> {{d[1]}}</td>
+	</tr>
+   {% endfor%}
+</table>
+<center>
+<h3>No of points in each cluster
+{% for d in data[2] %}<br/>
+
+<tr>{{d}}</tr>
+
+{% endfor %}
+</h3>
+<table border='1'>
+<thead><b>Distance between centroids</b></thead>
+<th>Centroid Pair</th><th>Distance</th>
+
+   {% for d in data[3] %}
+    <tr>
+      <td>{{d[0]}}</td>
+	  <td> {{d[1]}}</td>
+	</tr>
+   {% endfor%}
+</table>
+</center>
+{{data[4]}}
+   <img src = "/static/plots/{{data[0]}}">
+   
+
+</body>
+</html>

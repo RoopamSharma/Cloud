@@ -1,0 +1,11 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2018-06-09T17:21:01.275Z,59.5602,-152.8252,93.3,1.8,ml,,,,0.2,ak,ak19739480,2018-06-09T17:23:43.773Z,"60km WSW of Anchor Point, Alaska",earthquake,,0.9,,,automatic,ak,ak
+2018-06-09T16:58:49.370Z,19.1875,-155.4846649,31.45,2,ml,35,77,0.03838,0.11,hv,hv70253737,2018-06-09T17:04:30.320Z,"2km SSW of Pahala, Hawaii",earthquake,0.53,1.05,0.11,3,automatic,hv,hv
+2018-06-09T16:55:30.950Z,19.3985004,-155.2630005,-0.17,2.19,ml,20,60,0.002873,0.33,hv,hv70253727,2018-06-09T17:01:48.390Z,"4km SW of Volcano, Hawaii",earthquake,0.33,0.35,0.27,8,automatic,hv,hv
+2018-06-09T16:55:14.540Z,62.2384,-149.6843,34.1,1.7,ml,,,,0.6,ak,ak19739459,2018-06-09T16:59:56.606Z,"12km NE of Y, Alaska",earthquake,,0.4,,,automatic,ak,ak
+2018-06-09T16:55:01.310Z,19.4113331,-155.2813263,1.04,1.85,ml,11,106,0.006817,0.13,hv,hv70253722,2018-06-09T17:01:12.500Z,"5km WSW of Volcano, Hawaii",earthquake,0.58,1.07,0.33,10,automatic,hv,hv
+2018-06-09T16:46:21.000Z,33.492,-116.7843333,6.02,0.64,ml,27,36,0.08308,0.16,ci,ci38194704,2018-06-09T16:50:05.612Z,"9km NE of Aguanga, CA",earthquake,0.23,0.88,0.147,17,automatic,ci,ci
+2018-06-09T16:43:45.700Z,19.3981667,-155.2638397,0.44,1.78,ml,18,98,0.002071,0.08,hv,hv70253682,2018-06-09T16:49:25.130Z,"4km SW of Volcano, Hawaii",earthquake,0.18,0.21,0.39,9,automatic,hv,hv
+2018-06-09T16:41:57.350Z,33.5253333,-116.7453333,4.22,0.66,ml,21,50,0.04052,0.13,ci,ci38194696,2018-06-09T16:45:30.519Z,"7km WSW of Anza, CA",earthquake,0.19,0.45,0.183,22,automatic,ci,ci
+2018-06-09T16:27:44.980Z,19.4165001,-155.2684937,0.68,1.88,ml,19,64,0.009242,0.1,hv,hv70253632,2018-06-09T16:33:25.080Z,"3km WSW of Volcano, Hawaii",earthquake,0.28,0.17,0.18,9,automatic,hv,hv
+2018-06-09T16:27:18.770Z,19.4293327,-155.2904968,0.15,1.96,ml,15,150,0.008341,0.31,hv,hv70253627,2018-06-09T16:32:58.830Z,"5km W of Volcano, Hawaii",earthquake,0.64,0.42,0.33,10,automatic,hv,hv

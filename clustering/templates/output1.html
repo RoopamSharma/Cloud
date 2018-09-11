@@ -1,0 +1,11 @@
+<html>
+
+<body>
+<center>
+{% include "header.html" %}
+{% for r in data %}
+<h2><img src='static/{{r[8]}}'/>
+<img src='static/{{r[9]}}'/></h2><br/>
+{% endfor %}
+</body>
+</html>
